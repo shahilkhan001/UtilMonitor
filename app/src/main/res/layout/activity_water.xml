@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/lightBlue"
+    tools:context=".WaterActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp"
+        android:layout_marginTop="20dp">
+
+        <com.example.utilmonitor.LineChartView
+            android:id="@+id/waterCustomChart"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="24dp" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Water Usage"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tvWaterData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading water usage data..."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh Data"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:radius="12dp" />
+
+    <EditText
+        android:id="@+id/etWaterLimit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Set water limit (e.g. 100 L)"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnSaveWaterLimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Water Limit"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:radius="12dp" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for dark mode. -->
+    <style name="Base.Theme.UtilMonitor" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize the dark theme properties -->
+        <item name="colorOnBackground">@color/white</item>  <!-- Text or elements on dark background -->
+    </style>
+</resources>

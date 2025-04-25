@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Basic Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="lightGray">#D3D3D3</color>
+    <color name="darkGray">#A9A9A9</color>
+
+    <!-- Red Shades -->
+    <color name="red">#FF0000</color>
+    <color name="darkRed">#8B0000</color>
+    <color name="lightRed">#FF6666</color>
+
+    <!-- Blue Shades -->
+    <color name="blue">#0000FF</color>
+    <color name="darkBlue">#00008B</color>
+    <color name="lightBlue">#ADD8E6</color>
+
+    <!-- Green Shades -->
+    <color name="green">#008000</color>
+    <color name="darkGreen">#006400</color>
+    <color name="lightGreen">#90EE90</color>
+
+    <!-- Yellow Shades -->
+    <color name="yellow">#FFFF00</color>
+    <color name="gold">#FFD700</color>
+    <color name="lightYellow">#FFFFE0</color>
+
+    <!-- Orange Shades -->
+    <color name="orange">#FFA500</color>
+    <color name="darkOrange">#FF8C00</color>
+    <color name="lightOrange">#FFDAB9</color>
+
+    <!-- Purple Shades -->
+    <color name="purple">#800080</color>
+    <color name="darkPurple">#4B0082</color>
+    <color name="lightPurple">#D8BFD8</color>
+
+    <!-- Pink Shades -->
+    <color name="pink">#FFC0CB</color>
+    <color name="hotPink">#FF69B4</color>
+    <color name="lightPink">#FFB6C1</color>
+
+    <!-- Cyan & Teal Shades -->
+    <color name="cyan">#00FFFF</color>
+    <color name="lightCyan">#E0FFFF</color>
+    <color name="teal">#008080</color>
+
+    <!-- Brown Shades -->
+    <color name="brown">#A52A2A</color>
+    <color name="darkBrown">#654321</color>
+    <color name="lightBrown">#D2B48C</color>
+
+    <!-- Custom Colors -->
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="buttonColor">#FF5722</color>
+    <color name="errorColor">#D32F2F</color>
+    <color name="successColor">#4CAF50</color>
+    <color name="warningColor">#FFEB3B</color>
+    <color name="infoColor">#2196F3</color>
+
+    <!-- Transparent Colors -->
+    <color name="transparentBlack">#80000000</color> <!-- 50% Black -->
+    <color name="transparentWhite">#80FFFFFF</color> <!-- 50% White -->
+
+    <!-- Light Mode -->
+
+    <color name="lightprimary">#008080</color>
+    <color name="lightonPrimary">#FFFFFF</color>
+    <color name="lightbackground">#FFFFFF</color>
+    <color name="lightonBackground">#000000</color>
+
+    <!-- Dark Mode -->
+
+    <color name="primary">#00FFFF</color>
+    <color name="onPrimary">#000000</color>
+    <color name="background">#121212</color>
+    <color name="onBackground">#FFFFFF</color>
+
+
+
+
+
+</resources>

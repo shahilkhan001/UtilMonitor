@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UtilMonitor" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- The main theme, combining both styles -->
+    <style name="Theme.UtilMonitor" parent="Base.Theme.UtilMonitor">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorOnBackground">@color/black</item>
+
+        <!-- Colors for light and dark backgrounds -->
+       <!-- <item name="colorBackground">@color/background_light</item> -->
+    </style>
+</resources>
