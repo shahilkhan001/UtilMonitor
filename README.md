@@ -5,4 +5,4 @@ UtilMonitor is an Android app designed to track electricity, water, and gas usag
 
 ## 📱 App Screenshot
 
-![App Screenshot](screenshots/screenshot.png)
+![App Screenshot](screenshots/screenshot.png.png)
